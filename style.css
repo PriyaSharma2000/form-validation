@@ -26,7 +26,6 @@ form{
     flex-direction: column;
     justify-content: center;
     width: 420px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     padding: 50px;
 }
 

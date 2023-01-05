@@ -21,7 +21,9 @@ form.addEventListener("submit",(e) => {
     engine(username, 0, "Username cannot be blank");
     engine(email, 1, "Email cannot be blank");
     engine(password, 2, "Password cannot be blank");
-    alert(`Username --> ${username.value}
+    if(username.value && email.value && password.value != ""){
+        alert(`Username --> ${username.value}
 Email --> ${email.value}
 Password --> ${password.value}`)
+    }
 });
